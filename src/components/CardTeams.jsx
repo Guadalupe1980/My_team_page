@@ -40,7 +40,7 @@ function CardTeams({ teamsRoles }) {
             key={indice}
             className={`flex flex-col
 
-              ${indice % 2 !== 0 ? "translate-y-12 md:translate-y-0" : ""}
+              ${indice % 2 !== 0 ? "translate-y-15 md:translate-y-0" : ""}
               ${indice === 1 || indice === 4 ? "md:translate-y-24" : ""}
             `}
           >
